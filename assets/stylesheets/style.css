@@ -1,0 +1,65 @@
+/*Custom Styles*/
+
+/*Global Styles*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn1 {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ee626a;
+  cursor: pointer;
+}
+
+.btn2 {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ee626a;
+  background-color: #fff;
+  border: 1px solid #ee626a;
+  cursor: pointer;
+}
+
+/*Header*/
+
+.header-top {
+  background-color: #012d5b;
+  color: #fff;
+  padding: 12px 0;
+}
+
+.header-down {
+  color: #012d5b;
+  padding: 30px 0;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #012d5b;
+}
+
+/*Call Back*/
+.call-back {
+  background-color: #012d5b;
+  padding: 30px 0;
+}
