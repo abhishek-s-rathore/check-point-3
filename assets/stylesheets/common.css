@@ -145,6 +145,8 @@ form input {
 
 form input::placeholder {
   color: white;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 form select {
@@ -161,6 +163,11 @@ form select {
 
 select option {
   background-color: #ee626a;
+  font-size: 18px;
+  font-weight: normal;
+}
+select {
+  font-size: 18px;
 }
 
 form .btn1 {
