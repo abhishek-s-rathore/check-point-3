@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buson | Check-Point-3 | Home Page</title>
+
     <!--Stylesheets-->
     <link rel="stylesheet" href="assets/stylesheets/resets.css" />
-    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <link rel="stylesheet" href="assets/stylesheets/common.css" />
+    <link rel="stylesheet" href="assets/stylesheets/index.css" />
+
     <!--Font Awesome-->
     <script
       src="https://kit.fontawesome.com/5cc6fb9f6b.js"
@@ -20,22 +23,24 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <!--Header-->
+
     <header class="header">
       <div class="header-top">
-        <div class="container flex">
+        <div class="container1 flex">
           <div class="flex">
             <address>
               <i class="fas fa-map-marker-alt"></i>
               <span>85/A, 17th Floor, Kings Land, New York</span>
             </address>
-            <a href="mailto:info@consulting.com"
-              ><i class="fas fa-envelope"></i>info@consulting</a
+            <a class="mail" href="mailto:info@consulting.com"
+              ><i class="fas fa-envelope"></i> info@consulting.com</a
             >
           </div>
 
-          <nav>
+          <nav class="header-contact">
             <ul class="flex">
               <li>
                 <a href="https://www.linkdin.com"
@@ -62,10 +67,11 @@
         </div>
       </div>
 
-      <div class="header-down container flex">
+      <div class="header-down container1 flex">
         <a href="#"
           ><img src="assets/media/logo/logo (2).png" alt="Logo of Buson"
         /></a>
+
         <nav>
           <ul class="flex">
             <li><a href="#">HOME</a></li>
@@ -80,27 +86,199 @@
       </div>
     </header>
 
-    <!---->
-    <!---->
-    <!---->
-    <!---->
-    <!---->
-    <!---->
-    <!---->
-    <!---->
-    <!---->
-    <!--Call Back-->
-    <section class="call-back">
-      <div class="container flex">
+    <!--Hero Section-->
+
+    <section class="hero">
+      <div class="container2">
+        <article>
+          <h6>WELCOME TO BUSON</h6>
+          <h1>WE HELP YOU TO GROW YOUR BUSINESS</h1>
+          <a class="btn1" href="#">LEARN MORE</a>
+        </article>
+      </div>
+    </section>
+
+    <!--Team-->
+
+    <section class="team">
+      <div class="container2 flex">
+        <article>
+          <img src="assets/media/team/team_1.jpg" alt="Team" />
+          <h2>Business Planning</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+            nisi illum illo, saepe explicabo nam.
+          </p>
+        </article>
+
+        <article>
+          <img src="assets/media/team/team_2.jpg" alt="Team" />
+          <h2>Finencial Projections</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
+            nisi illum illo, saepe explicabo nam culpa .
+          </p>
+        </article>
+        <article class="hilighted">
+          <h3>What we do for you</h3>
+          <hr />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+            asperiores rem, minima aut fugiat, vero nostrum harum quasi saepe
+            qui!
+          </p>
+          <a href="#">View Profile >></a>
+        </article>
+      </div>
+    </section>
+
+    <!--Trust Section-->
+
+    <section class="wetrusted">
+      <div class="container2">
+        <article>
+          <div class="image">
+            <img src="assets/media/team/wetrusted.jpg" alt="Team" />
+          </div>
+          <div class="content">
+            <h3>We are more trusted then 5000 clients</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut hic
+              nobis rem quod veniam tenetur velit fugit assumenda sed
+              Voluptatum.
+            </p>
+            <a class="btn1" href="#">LEARN MORE</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--Services Section-->
+
+    <section class="service">
+      <header class="sub-header">
+        <h3>Our Services</h3>
+      </header>
+      <div class="container2 flex">
+        <article>
+          <i class="far fa-clipboard"></i>
+          <h2>Strtigic Planning</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus aliquam.
+          </p>
+        </article>
+        <article>
+          <i class="fas fa-tasks"></i>
+          <h2>Trades & Stocks</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus aliquam.
+          </p>
+        </article>
+        <article>
+          <i class="fas fa-scroll"></i>
+          <h2>Audit & Assurance</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus aliquam.
+          </p>
+        </article>
+      </div>
+      <a class="btn2" href="#">More Services</a>
+    </section>
+
+    <!--Completed Caese-->
+
+    <section class="cases">
+      <div class="case">
+        <h3>Completed Cases</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut deserunt
+          omnis tempore autem neque atque officia, expedita, optio enim esse
+          reiciendis suscipit praesentium a sit nostrum!
+        </p>
+        <a class="btn2" href="#">See More</a>
+      </div>
+      <div class="slide">
+        <img src="assets/media/cases/completed_case_1.png" alt="Case1" />
+        <img src="assets/media/cases/completed_case_2.png" alt="Case2" />
+        <img src="assets/media/cases/completed_case_3.png" alt="Case3" />
+        <img src="assets/media/cases/completed_case_4.png" alt="Case4" />
+        <img src="assets/media/cases/completed_case_5.png" alt="Case5" />
+      </div>
+    </section>
+
+    <!--Testimonia-->
+
+    <section class="testimonia">
+      <div class="container2">
         <div>
+          <img
+            src="assets/media/testimonial/Homepage_testi.png"
+            alt="Clifford Frazier"
+          />
+        </div>
+        <q
+          >You can't succeed if you just do what others do and <br />follow the
+          well-worn path. You need to create a new and <br />original pathfor
+          yourself.</q
+        >
+        <div class="five-star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>CLIFFORD FRAZIER-<span>Colorlib Themes</span></p>
+      </div>
+    </section>
+
+    <!--Recent News-->
+
+    <section class="recent">
+      <header class="sub-header">
+        <h3>Our Recent News</h3>
+      </header>
+      <div class="container2 flex">
+        <article>
+          <img src="assets/media/recents/rcent_1.png" alt="Team" />
+          <p>Business Planning</p>
+          <h5>Amazing Places To Visit In Summers</h5>
+          <time datetime="2020-11-30">NOV 30, 2020</time>
+        </article>
+
+        <article>
+          <img src="assets/media/recents/rcent_2.png" alt="Team" />
+          <p>Audit</p>
+          <h5>Amazing Places To Visit In Summers</h5>
+          <time datetime="2020-11-30">NOV 30, 2020</time>
+        </article>
+
+        <article>
+          <img src="assets/media/recents/rcent_3.png" alt="Team" />
+          <p>Business Process</p>
+          <h5>Amazing Places To Visit In Summers</h5>
+          <time datetime="2020-11-30">NOV 30, 2020</time>
+        </article>
+      </div>
+    </section>
+
+    <!--Call Back-->
+
+    <section class="call-back">
+      <div class="container2 flex">
+        <article class="call-back-info">
           <h3>Request for Call Back</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora,
             hic odit culpa autem porro deserunt perspiciatis, consequuntur
             quaerat at tempore.
           </p>
-        </div>
-        <form>
+        </article>
+
+        <form class="call-back-form">
           <input type="text" placeholder="Name" />
           <input type="tel" placeholder="Phone" />
           <select name="services">
@@ -113,6 +291,80 @@
         </form>
       </div>
     </section>
+
     <!--Footer-->
+
+    <footer class="footer">
+      <div class="container2">
+        <div class="flex">
+          <div class="buson-footer">
+            <img src="assets/media/logo/logo2_footer.png" alt="Logo Of Buson" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio
+              blanditiis nobis explicabo iste!
+            </p>
+            <ul class="flex">
+              <li>
+                <a href="https://www.facebook.com"
+                  ><i class="fab fa-facebook-square"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com"
+                  ><i class="fab fa-twitter-square"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.pinterest.com"
+                  ><i class="fab fa-pinterest-square"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="company">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="case.html">Cases</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="services">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Commercial Cleaning</a></li>
+              <li><a href="#">Office Cleaning</a></li>
+              <li><a href="#">Building Cleaning</a></li>
+              <li><a href="#">Floor Cleaning</a></li>
+              <li><a href="#">Apartment Cleaning</a></li>
+            </ul>
+          </div>
+
+          <div class="get-in-touch">
+            <h4>Get In Touch</h4>
+            <a href="tel:152-515-6565">152-515-6565</a><br />
+            <a href="mailto:demomail@gmail.com">demomail@gail.com</a>
+            <address>New Orleans, USA</address>
+          </div>
+        </div>
+
+        <div class="copyright-info">
+          <small>
+            Copyright &copy; All rights reserved | This template is made with
+            <span class="color"><i class="far fa-heart"></i></span> by
+            <span class="color">Colorlib</span>
+          </small>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

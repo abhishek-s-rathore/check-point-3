@@ -1,0 +1,220 @@
+/*Custom Styles*/
+
+/*Global Styles*/
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container1 {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn1 {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ee626a;
+  cursor: pointer;
+}
+
+.btn2 {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ee626a;
+  background-color: #fff;
+  border: 1px solid #ee626a;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+.sub-header h3 {
+  text-align: center;
+  padding: 60px 0;
+  font-weight: 700;
+}
+
+/*Common To All Pages*/
+
+/*Header*/
+
+.header-top {
+  background-color: #012d5b;
+  color: #fff;
+  padding: 12px 0;
+}
+
+.header-down {
+  color: #012d5b;
+  padding: 40px 0;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #012d5b;
+}
+
+.header-contact a {
+  color: #fff;
+  margin-right: 15px;
+}
+
+.mail {
+  color: #fff;
+  margin-left: 30px;
+}
+
+.mail i {
+  margin-right: 5px;
+}
+
+/*Call Back*/
+
+.call-back {
+  background-color: #012d5b;
+  padding: 120px 0;
+}
+
+.call-back-info {
+  flex: 0 1 30%;
+}
+
+.call-back-info {
+  color: #fff;
+  line-height: 1.6;
+}
+
+.call-back-form {
+  flex: 0 1 55%;
+}
+
+form input {
+  width: 46%;
+  height: 60px;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: none;
+  font-weight: bold;
+  padding-left: 5px;
+  color: white;
+}
+
+form input::placeholder {
+  color: white;
+}
+
+form select {
+  width: 65%;
+  height: 60px;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #fff;
+  padding-left: 5px;
+}
+
+select option {
+  background-color: #ee626a;
+}
+
+form .btn1 {
+  padding: 19px 65px;
+  margin-left: 8px;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: #f8fafe;
+}
+
+.footer .color {
+  color: #ee626a;
+}
+
+.buson-footer {
+  flex: 0 1 40%;
+  padding: 80px 20px;
+}
+
+.buson-footer p {
+  padding-top: 20px;
+  color: #6f6f70;
+}
+
+.buson-footer ul {
+  width: 40%;
+}
+
+.buson-footer ul a {
+  color: black;
+  display: inline-block;
+  padding-top: 60px;
+}
+
+.company,
+.services,
+.get-in-touch {
+  flex: 0 1 20%;
+  padding: 80px 20px;
+  vertical-align: top;
+  line-height: 2;
+}
+
+.footer a,
+.footer address {
+  color: #6f6f70;
+}
+
+.copyright-info {
+  text-align: center;
+  border-top: 1px solid #6f6f70;
+  color: #6f6f70;
+  padding: 40px 0;
+}

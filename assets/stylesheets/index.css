@@ -1,0 +1,216 @@
+/*Home Page*/
+
+/*Hero Section*/
+
+.hero {
+  height: 825px;
+  background: url(../media/hero/h1_hero.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+
+.hero article {
+  width: 40%;
+  height: 250px;
+  padding-top: 300px;
+}
+
+.hero article h1 {
+  color: #012d5b;
+  padding-bottom: 15px;
+}
+article h6 {
+  color: #ee626a;
+}
+
+/*Team Section*/
+
+.team {
+  background-color: #f6f9fe;
+  padding: 120px 0;
+  line-height: 1.5;
+}
+.team img {
+  width: 100%;
+}
+
+.team article {
+  width: 32%;
+}
+
+.team p {
+  line-height: 1.5;
+  color: #6f6f70;
+}
+.team .hilighted {
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #ee626a;
+}
+
+.hilighted hr {
+  width: 30%;
+  margin: 20px 0;
+  height: 4px;
+  background-color: #ee626a;
+  border: none;
+}
+
+.hilighted a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+/*We Trusted Section*/
+
+.wetrusted {
+  position: relative;
+  padding: 120px 0;
+}
+
+.image {
+  width: 60%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.content {
+  padding: 45px;
+  position: absolute;
+  left: 50%;
+  top: 390px;
+  width: 25%;
+  background-color: rgba(255, 255, 255, 0.5);
+  line-height: 1.6;
+}
+
+.content p {
+  color: #6f6f70;
+}
+
+.content .btn1 {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+/*Our Setrvices*/
+.service {
+  padding-top: 60px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.service .container2 article {
+  width: 27%;
+  text-align: center;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.service .container2 article i {
+  font-size: 56px;
+  padding: 20px 0;
+}
+
+.service .container2 article p {
+  color: #6f6f70;
+}
+
+.service .btn2 {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+/*Recent News*/
+.recent {
+  line-height: 1.6;
+  padding-bottom: 120px;
+}
+
+.recent article {
+  width: 30%;
+}
+.recent article img {
+  width: 100%;
+}
+
+.recent article p {
+  color: #ee626a;
+}
+
+.recent article h5 {
+  font-size: 22px;
+}
+
+.recent article time {
+  color: #6f6f70;
+}
+
+/*Testimonia*/
+.testimonia {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.testimonia q {
+  font-size: 22px;
+}
+.five-star {
+  padding: 20px 0;
+  color: rgb(221, 147, 27);
+}
+
+.testimonia span {
+  color: #6f6f70;
+}
+
+/*Completed Cases*/
+.cases {
+  background: #f8fafe;
+  display: flex;
+  justify-content: flex-end;
+  padding: 120px 0;
+}
+
+.case {
+  width: 35%;
+  height: 300px;
+  padding-top: 20px;
+  padding-right: 120px;
+}
+.case p {
+  color: #6f6f70;
+  padding-top: 20px;
+}
+
+.slide {
+  width: 45%;
+  height: 500px;
+  line-height: 1.6;
+}
+
+.case .btn2 {
+  display: inline-block;
+  background-color: #f8fafe;
+  margin-top: 50px;
+}
+
+.slide {
+  overflow: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.slide img {
+  height: 100%;
+  margin-right: 20px;
+}
