@@ -123,6 +123,15 @@ nav a {
 .service-pg-nm {
   background: url(../media/hero/services_hero.jpg);
 }
+.about-pg-nm {
+  background: url(../media/hero/about_hero.jpg);
+}
+.case-pg-nm {
+  background: url(../media/hero/cases_hero.jpg);
+}
+.blog-pg-nm {
+  background: url(../media/hero/blog_hero.jpg);
+}
 
 /*Call Back*/
 
@@ -155,6 +164,8 @@ form input {
   font-weight: bold;
   padding-left: 5px;
   color: white;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 form input::placeholder {

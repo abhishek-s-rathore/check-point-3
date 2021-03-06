@@ -1,0 +1,11 @@
+/*Our Blog*/
+.blog {
+  padding: 120px 0;
+}
+
+.left-div {
+  width: 65%;
+}
+.right-div {
+  width: 35%;
+}
