@@ -110,6 +110,20 @@ nav a {
   margin-right: 5px;
 }
 
+/*Page Name*/
+.page-name {
+  padding-top: 120px;
+  height: 300px;
+  text-align: center;
+  color: white;
+}
+.contact-pg-nm {
+  background: url(../media/hero/contact_hero.jpg);
+}
+.service-pg-nm {
+  background: url(../media/hero/services_hero.jpg);
+}
+
 /*Call Back*/
 
 .call-back {
@@ -147,6 +161,7 @@ form input::placeholder {
   color: white;
   font-size: 18px;
   font-weight: normal;
+  padding-left: 5px;
 }
 
 form select {
@@ -173,6 +188,9 @@ select {
 form .btn1 {
   padding: 19px 65px;
   margin-left: 8px;
+}
+
+.page-name {
 }
 
 /*Footer*/
